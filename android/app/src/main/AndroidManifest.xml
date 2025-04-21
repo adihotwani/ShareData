@@ -10,6 +10,7 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme"
       android:supportsRtl="true">
+
       <activity
         android:name=".MainActivity"
         android:label="@string/app_name"
@@ -20,6 +21,8 @@
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="com.googleusercontent.apps.404586675449-01mc20clc93777e428pf0v9g8vfc2c5v" />
         </intent-filter>
       </activity>
     </application>
